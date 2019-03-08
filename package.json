@@ -2,9 +2,10 @@
   "name": "dynamo-test",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dynamoService.js",
   "scripts": {
     "start": "node ./dynamoService.js",
+    "dynamo_start": "docker run -p 8000:8000 --name dynamodb-local amazon/dynamodb-local"
   },
   "repository": {
     "type": "git",
